@@ -47,4 +47,17 @@ echo 'alias k=kubectl' >>~/.bashrc
 echo 'complete -F __start_kubectl k' >>~/.bashrc
 ~~~
 ### 5. 추후 worker-node 추가 시에 토큰 값   
-https://sarc.io/index.php/cloud/1383-join-token
+https://sarc.io/index.php/cloud/1383-join-token   
+토큰 목록 확인 및 생성 명령어   
+~~~
+$ kubeadm token list
+$ kubeadm token create
+~~~
+Hash 확인   
+~~~
+openssl x509 -pubkey -in /etc/kubernetes/pki/ca.crt | openssl rsa -pubin -outform der 2>/dev/null | openssl dgst -sha256 -hex | sed 's/^.* //'
+~~~
+다음 명령어의 1, 2, 3 요소를 채워넣어 Join   
+~~~
+kubeadm join <1. Kubernetes API Server:PORT(6443)> --token <2. Token 값> --discovery-token-ca-cert-hash sha256:<3. Hash 값>
+~~~
