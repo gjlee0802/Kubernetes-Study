@@ -46,3 +46,5 @@ k만 입력하여 kubectl을 입력하고 자동완성 되도록 함.
 echo 'alias k=kubectl' >>~/.bashrc
 echo 'complete -F __start_kubectl k' >>~/.bashrc
 ~~~
+### 5. 추후 worker-node 추가 시에 토큰 값   
+https://sarc.io/index.php/cloud/1383-join-token
