@@ -6,6 +6,7 @@
 - 금기현 선배 깃헙: https://github.com/KumKeeHyun/raspi-cluster
 - 입문용 유튜브(따배쿠): https://youtu.be/6n5obRKsCRQ
 ## 가능한 진로/방향
+### 클라우드 네트워크 엔진 개발
 #### 하는 일
 - 네트워크 control/data plane 개발
 - 네트워크 가상화 개발
