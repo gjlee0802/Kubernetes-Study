@@ -27,3 +27,5 @@
 - [설치](https://github.com/gjlee0802/Kubernetes-Study/blob/main/%EC%84%A4%EC%B9%98.md)
 - [컨트롤러](https://github.com/gjlee0802/Kubernetes-Study/blob/main/%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC_%EA%B4%80%EB%A6%AC%EB%90%98%EB%8A%94%ED%8C%8C%EB%93%9C%EB%B0%B0%ED%8F%AC.md)
 - [서비스](https://github.com/gjlee0802/Kubernetes-Study/blob/main/%EC%84%9C%EB%B9%84%EC%8A%A4_%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%ED%8C%8C%EB%93%9C%ED%86%B5%EC%8B%A0.md)
+
+# 전지전능하신 기말고사로 인해 잠시 접고 종강하면 다시 
